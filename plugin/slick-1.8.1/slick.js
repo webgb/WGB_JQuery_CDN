@@ -18,7 +18,7 @@
 ;(function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
-        define(['jQuery3_4_1'], factory);
+        define(['jQuery'], factory);
     } else if (typeof exports !== 'undefined') {
         module.exports = factory(require('jquery'));
     } else {
