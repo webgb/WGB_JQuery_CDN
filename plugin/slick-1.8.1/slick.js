@@ -15,6 +15,9 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+(function($) {
+    var jQuery = $;
+
 ;(function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -3009,3 +3012,6 @@
     };
 
 }));
+window.user_function = user_function; 
+ // 이제 외부에서 user_function을 사용가능
+}(jQuery3_4_1));
